@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
-const พร็อกซีไอพีs = ['146.70.175.98','146.70.175.99','146.70.175.100','146.70.175.101','146.70.175.102','146.70.175.103','146.70.175.104','146.70.175.116'];
+const พร็อกซีไอพีs = ['proxyip.fxxk.dedyn.io'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
